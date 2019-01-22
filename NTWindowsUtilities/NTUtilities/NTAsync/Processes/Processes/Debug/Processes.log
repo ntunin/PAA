@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  Processes.cpp
+  ProcessManager.cpp
+c:\users\николай\documents\github\paa\ntwindowsutilities\ntutilities\ntasync\processes\processes\processrunner.h(16): warning C4141: virtual: используется несколько раз
+  ProcessRunner.cpp
+c:\users\николай\documents\github\paa\ntwindowsutilities\ntutilities\ntasync\processes\processes\processrunner.h(16): warning C4141: virtual: используется несколько раз
+  Создание кода...
+     Создается библиотека C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\Processes.lib и объект C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\Processes.exp
+  Processes.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\Processes.dll

@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  NTGradientProblem.cpp
+  NTGradientProblemAlgorithm.cpp
+  NTInitialVectorAlgorithm.cpp
+  NTStandartAlgorithm.cpp
+  NTStandartMathProblem.cpp
+  NTStandartProblems.cpp
+  Создание кода...
+  LINK : не найден или не выполнена сборка C:\Users\Николай\Documents\GitHub\PAA\NTMathProblem\NTStandartProblemAlgorithm\x64\Debug\NTStandartProblems.dll при последней инкрементной компоновке; выполняется полная компоновка
+     Создается библиотека C:\Users\Николай\Documents\GitHub\PAA\NTMathProblem\NTStandartProblemAlgorithm\x64\Debug\NTStandartProblems.lib и объект C:\Users\Николай\Documents\GitHub\PAA\NTMathProblem\NTStandartProblemAlgorithm\x64\Debug\NTStandartProblems.exp
+  NTStandartProblems.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\NTMathProblem\NTStandartProblemAlgorithm\x64\Debug\NTStandartProblems.dll

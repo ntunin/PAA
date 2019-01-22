@@ -1,0 +1,3 @@
+[submodule "NTAsync"]
+	path = NTAsync
+	url = https://github.com/ntunin/NTAsync

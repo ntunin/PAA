@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  Complex.cpp
+  dllmain.cpp
+  NTMath.cpp
+  Utils.cpp
+  Создание кода...
+     Создается библиотека C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\NTMath.lib и объект C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\NTMath.exp
+  NTMath.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\NTMath.dll

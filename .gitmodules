@@ -1,0 +1,4 @@
+[submodule "NTWindowsUtilities"]
+	path = NTWindowsUtilities   url = https://github.com/ntunin/NTWindowsUtilities
+[submodule "NTMathProblem"]
+	path = NTMathProblem	url = https://github.com/ntunin/NTMathProblem

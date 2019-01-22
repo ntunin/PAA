@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{d514c407-dcaa-4705-bd74-ea5f77e8a8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser">
+      <UniqueIdentifier>{bf0b504b-1fc2-48cf-93b8-9e7c92aa7e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\NecIn">
+      <UniqueIdentifier>{2472955f-e465-4a1b-8531-ab26ecf9a292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\NecInWritter">
+      <UniqueIdentifier>{1aa7ba19-ae64-430f-a52e-dcbf93ffe743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\NecOut">
+      <UniqueIdentifier>{2fadb291-a740-4fea-9268-50e2a6397055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecInParser">
+      <UniqueIdentifier>{26b4e8fc-8630-4f0d-ba92-938179d67598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand">
+      <UniqueIdentifier>{3ce85a87-843f-4edf-ab12-0b0124831eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand\CE">
+      <UniqueIdentifier>{e43bada0-a141-4fa5-a4b5-76a102c9d478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand\CM">
+      <UniqueIdentifier>{33a4cb59-02f0-41c8-8d41-721ec9baabd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand\EN">
+      <UniqueIdentifier>{b831ad1a-b7e9-46ca-9752-9ad61cb5166a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand\EX">
+      <UniqueIdentifier>{aa449d86-6ec8-48fa-a8f0-be6e840595e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand\FR">
+      <UniqueIdentifier>{4de118a3-8816-46be-9dd3-b529d6307ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand\GN">
+      <UniqueIdentifier>{7a897664-4ae2-4664-916a-593e8a80661a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand\GW">
+      <UniqueIdentifier>{16d3e2c7-9110-4539-8859-d4daa84904e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileStructure">
+      <UniqueIdentifier>{85d53577-3886-4bd5-b1f4-7feaf143cf80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand\PT">
+      <UniqueIdentifier>{53dc0c64-a774-49be-a5ae-7e354cadc1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand\RP">
+      <UniqueIdentifier>{a98e7c77-d9ed-4c11-825b-9663858cc3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecOutParser">
+      <UniqueIdentifier>{0890a294-73ef-4a52-8ed6-ff9a1e2d8d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\FileStreamHendler">
+      <UniqueIdentifier>{525efd2a-aae7-4352-8c52-644530abf003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\KeyWordsHandler">
+      <UniqueIdentifier>{0a3a3ca8-a9db-42ee-81cd-4add55ce9dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand\StringHendler">
+      <UniqueIdentifier>{f72e32fe-9aec-47db-bb19-28fc1cc2c417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\TableValueParser">
+      <UniqueIdentifier>{c13e8835-5033-400a-ba6c-741e96faf6f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\FileException">
+      <UniqueIdentifier>{35ca8ccd-b42f-4d5a-87d8-c0845f8b7d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand\AntenaInputsKeywordsHandler">
+      <UniqueIdentifier>{be2e69fe-a7f6-4829-bf75-c29a29a1d0f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand\RadiationKeywordsHandler">
+      <UniqueIdentifier>{78648923-c48b-4b3c-bbe1-0dff83a2d752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand\AntenaInputsKeywordsHandler\AllSourceNecInWritterException">
+      <UniqueIdentifier>{cf263841-a727-4f21-b47e-5b3379c6a78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser\FileParser\NecCommand\GE">
+      <UniqueIdentifier>{d414f9e1-8a4c-44ee-b23e-1f7bb290f427}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CE.h">
+      <Filter>Parser\FileParser\NecCommand\CE</Filter>
+    </ClInclude>
+    <ClInclude Include="CEHandler.h">
+      <Filter>Parser\FileParser\NecCommand\CE</Filter>
+    </ClInclude>
+    <ClInclude Include="CM.h">
+      <Filter>Parser\FileParser\NecCommand\CM</Filter>
+    </ClInclude>
+    <ClInclude Include="CMHandler.h">
+      <Filter>Parser\FileParser\NecCommand\CM</Filter>
+    </ClInclude>
+    <ClInclude Include="EN.h">
+      <Filter>Parser\FileParser\NecCommand\EN</Filter>
+    </ClInclude>
+    <ClInclude Include="ENHandler.h">
+      <Filter>Parser\FileParser\NecCommand\EN</Filter>
+    </ClInclude>
+    <ClInclude Include="EX.h">
+      <Filter>Parser\FileParser\NecCommand\EX</Filter>
+    </ClInclude>
+    <ClInclude Include="EXHandler.h">
+      <Filter>Parser\FileParser\NecCommand\EX</Filter>
+    </ClInclude>
+    <ClInclude Include="FileParser.h">
+      <Filter>Parser\FileParser</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStructure.h">
+      <Filter>Parser\FileStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="FR.h">
+      <Filter>Parser\FileParser\NecCommand\FR</Filter>
+    </ClInclude>
+    <ClInclude Include="GN.h">
+      <Filter>Parser\FileParser\NecCommand\GN</Filter>
+    </ClInclude>
+    <ClInclude Include="GNHandler.h">
+      <Filter>Parser\FileParser\NecCommand\GN</Filter>
+    </ClInclude>
+    <ClInclude Include="GW.h">
+      <Filter>Parser\FileParser\NecCommand\GW</Filter>
+    </ClInclude>
+    <ClInclude Include="GWHandler.h">
+      <Filter>Parser\FileParser\NecCommand\GW</Filter>
+    </ClInclude>
+    <ClInclude Include="NecCommand.h">
+      <Filter>Parser\FileParser\NecCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="NecIn.h">
+      <Filter>Parser\NecIn</Filter>
+    </ClInclude>
+    <ClInclude Include="NecInParser.h">
+      <Filter>Parser\FileParser\NecInParser</Filter>
+    </ClInclude>
+    <ClInclude Include="NecInWritter.h">
+      <Filter>Parser\NecInWritter</Filter>
+    </ClInclude>
+    <ClInclude Include="NecOut.h">
+      <Filter>Parser\NecOut</Filter>
+    </ClInclude>
+    <ClInclude Include="PT.h">
+      <Filter>Parser\FileParser\NecCommand\PT</Filter>
+    </ClInclude>
+    <ClInclude Include="PTHandler.h">
+      <Filter>Parser\FileParser\NecCommand\PT</Filter>
+    </ClInclude>
+    <ClInclude Include="RP.h">
+      <Filter>Parser\FileParser\NecCommand\RP</Filter>
+    </ClInclude>
+    <ClInclude Include="RPHandler.h">
+      <Filter>Parser\FileParser\NecCommand\RP</Filter>
+    </ClInclude>
+    <ClInclude Include="NecOutParser.h">
+      <Filter>Parser\FileParser\NecOutParser</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStreamHandler.h">
+      <Filter>Parser\FileParser\FileStreamHendler</Filter>
+    </ClInclude>
+    <ClInclude Include="KeywordsHandler.h">
+      <Filter>Parser\FileParser\KeyWordsHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHandler.h">
+      <Filter>Parser\FileParser\NecCommand\StringHendler</Filter>
+    </ClInclude>
+    <ClInclude Include="TableValueParser.h">
+      <Filter>Parser\FileParser\TableValueParser</Filter>
+    </ClInclude>
+    <ClInclude Include="FileException.h">
+      <Filter>Parser\FileParser\FileException</Filter>
+    </ClInclude>
+    <ClInclude Include="AntenaInputsKeywordsHandler.h">
+      <Filter>Parser\FileParser\NecCommand\AntenaInputsKeywordsHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="RadiationKeywordsHandler.h">
+      <Filter>Parser\FileParser\NecCommand\RadiationKeywordsHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="AllSourceNecInWritterException.h">
+      <Filter>Parser\FileParser\NecCommand\AntenaInputsKeywordsHandler\AllSourceNecInWritterException</Filter>
+    </ClInclude>
+    <ClInclude Include="FRHandler.h">
+      <Filter>Parser\FileParser\NecCommand\FR</Filter>
+    </ClInclude>
+    <ClInclude Include="GEHandler.h">
+      <Filter>Parser\FileParser\NecCommand\GE</Filter>
+    </ClInclude>
+    <ClInclude Include="GE.h">
+      <Filter>Parser\FileParser\NecCommand\GE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ComplexMath\ComplexMath\ComplexMath.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NecData.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CE.cpp">
+      <Filter>Parser\FileParser\NecCommand\CE</Filter>
+    </ClCompile>
+    <ClCompile Include="CEHandler.cpp">
+      <Filter>Parser\FileParser\NecCommand\CE</Filter>
+    </ClCompile>
+    <ClCompile Include="CM.cpp">
+      <Filter>Parser\FileParser\NecCommand\CM</Filter>
+    </ClCompile>
+    <ClCompile Include="CMHandler.cpp">
+      <Filter>Parser\FileParser\NecCommand\CM</Filter>
+    </ClCompile>
+    <ClCompile Include="EN.cpp">
+      <Filter>Parser\FileParser\NecCommand\EN</Filter>
+    </ClCompile>
+    <ClCompile Include="ENHandler.cpp">
+      <Filter>Parser\FileParser\NecCommand\EN</Filter>
+    </ClCompile>
+    <ClCompile Include="EX.cpp">
+      <Filter>Parser\FileParser\NecCommand\EX</Filter>
+    </ClCompile>
+    <ClCompile Include="EXHandler.cpp">
+      <Filter>Parser\FileParser\NecCommand\EX</Filter>
+    </ClCompile>
+    <ClCompile Include="FileParser.cpp">
+      <Filter>Parser\FileParser</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStructure.cpp">
+      <Filter>Parser\FileStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="FR.cpp">
+      <Filter>Parser\FileParser\NecCommand\FR</Filter>
+    </ClCompile>
+    <ClCompile Include="GN.cpp">
+      <Filter>Parser\FileParser\NecCommand\GN</Filter>
+    </ClCompile>
+    <ClCompile Include="GNHandler.cpp">
+      <Filter>Parser\FileParser\NecCommand\GN</Filter>
+    </ClCompile>
+    <ClCompile Include="GW.cpp">
+      <Filter>Parser\FileParser\NecCommand\GW</Filter>
+    </ClCompile>
+    <ClCompile Include="GWHandler.cpp">
+      <Filter>Parser\FileParser\NecCommand\GW</Filter>
+    </ClCompile>
+    <ClCompile Include="NecCommand.cpp">
+      <Filter>Parser\FileParser\NecCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="NecIn.cpp">
+      <Filter>Parser\NecIn</Filter>
+    </ClCompile>
+    <ClCompile Include="NecInParser.cpp">
+      <Filter>Parser\FileParser\NecInParser</Filter>
+    </ClCompile>
+    <ClCompile Include="NecInWritter.cpp">
+      <Filter>Parser\NecInWritter</Filter>
+    </ClCompile>
+    <ClCompile Include="NecOut.cpp">
+      <Filter>Parser\NecOut</Filter>
+    </ClCompile>
+    <ClCompile Include="PT.cpp">
+      <Filter>Parser\FileParser\NecCommand\PT</Filter>
+    </ClCompile>
+    <ClCompile Include="PTHandler.cpp">
+      <Filter>Parser\FileParser\NecCommand\PT</Filter>
+    </ClCompile>
+    <ClCompile Include="RP.cpp">
+      <Filter>Parser\FileParser\NecCommand\RP</Filter>
+    </ClCompile>
+    <ClCompile Include="RPHandler.cpp">
+      <Filter>Parser\FileParser\NecCommand\RP</Filter>
+    </ClCompile>
+    <ClCompile Include="NecOutParser.cpp">
+      <Filter>Parser\FileParser\NecOutParser</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStreamHandler.cpp">
+      <Filter>Parser\FileParser\FileStreamHendler</Filter>
+    </ClCompile>
+    <ClCompile Include="KeywordsHandler.cpp">
+      <Filter>Parser\FileParser\KeyWordsHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHandler.cpp">
+      <Filter>Parser\FileParser\NecCommand\StringHendler</Filter>
+    </ClCompile>
+    <ClCompile Include="TableValueParser.cpp">
+      <Filter>Parser\FileParser\TableValueParser</Filter>
+    </ClCompile>
+    <ClCompile Include="FileException.cpp">
+      <Filter>Parser\FileParser\FileException</Filter>
+    </ClCompile>
+    <ClCompile Include="AntenaInputsKeywordsHandler.cpp">
+      <Filter>Parser\FileParser\NecCommand\AntenaInputsKeywordsHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="RadiationKeywordsHandler.cpp">
+      <Filter>Parser\FileParser\NecCommand\RadiationKeywordsHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="AllSourceNecInWritterException.cpp">
+      <Filter>Parser\FileParser\NecCommand\AntenaInputsKeywordsHandler\AllSourceNecInWritterException</Filter>
+    </ClCompile>
+    <ClCompile Include="FRHandler.cpp">
+      <Filter>Parser\FileParser\NecCommand\FR</Filter>
+    </ClCompile>
+    <ClCompile Include="GEHandler.cpp">
+      <Filter>Parser\FileParser\NecCommand\GE</Filter>
+    </ClCompile>
+    <ClCompile Include="GE.cpp">
+      <Filter>Parser\FileParser\NecCommand\GE</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

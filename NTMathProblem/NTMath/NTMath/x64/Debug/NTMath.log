@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  Complex.cpp
+  dllmain.cpp
+  NTMath.cpp
+  Utils.cpp
+  Создание кода...
+  LINK : не найден или не выполнена сборка C:\Users\Николай\Documents\GitHub\PAA\NTMathProblem\NTStandartProblemAlgorithm\x64\Debug\NTMath.dll при последней инкрементной компоновке; выполняется полная компоновка
+     Создается библиотека C:\Users\Николай\Documents\GitHub\PAA\NTMathProblem\NTStandartProblemAlgorithm\x64\Debug\NTMath.lib и объект C:\Users\Николай\Documents\GitHub\PAA\NTMathProblem\NTStandartProblemAlgorithm\x64\Debug\NTMath.exp
+  NTMath.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\NTMathProblem\NTStandartProblemAlgorithm\x64\Debug\NTMath.dll

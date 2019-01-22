@@ -1,0 +1,3 @@
+[submodule "NTUtilities"]
+	path = NTUtilities
+	url = https://github.com/ntunin/NTUtilities

@@ -1,0 +1,16 @@
+﻿  stdafx.cpp
+  CacheManager.cpp
+  dllmain.cpp
+  NECPAAProblemStatementBuilder.cpp
+  NecRunner.cpp
+c:\users\николай\documents\github\paa\ntwindowsutilities\ntutilities\ntasync\processes\processes\processrunner.h(16): warning C4141: virtual: используется несколько раз
+c:\users\николай\documents\github\paa\necpaaproblemstatementbuilder\necpaaproblemstatementbuilder\necrunner.h(3): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  NECPhysicalSystemBuilder.cpp
+c:\users\николай\documents\github\paa\ntwindowsutilities\ntutilities\ntasync\processes\processes\processrunner.h(16): warning C4141: virtual: используется несколько раз
+c:\users\николай\documents\github\paa\necpaaproblemstatementbuilder\necpaaproblemstatementbuilder\necrunner.h(3): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  OneSourceNecInWritter.cpp
+  OneSourceNecInWritterException.cpp
+  WindowsCacheManager.cpp
+  Создание кода...
+     Создается библиотека C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\NECPAAProblemStatementBuilder.lib и объект C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\NECPAAProblemStatementBuilder.exp
+  NECPAAProblemStatementBuilder.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\NECPAAProblemStatementBuilder.dll

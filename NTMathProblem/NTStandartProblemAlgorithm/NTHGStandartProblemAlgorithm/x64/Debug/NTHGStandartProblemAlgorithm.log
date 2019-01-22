@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  LinearSearch.cpp
+  NTConjugateGradientAlgorithm.cpp
+  NTGradientAlgorithm.cpp
+  NTHGStandartProblemAlgorithms.cpp
+  NTHGAlgorithm.cpp
+c:\users\николай\documents\github\paa\ntmathproblem\ntstandartproblemalgorithm\nthgstandartproblemalgorithm\nthgalgorithm.cpp(43): warning C4101: value: неиспользованная локальная переменная
+  Создание кода...
+  LINK : не найден или не выполнена сборка C:\Users\Николай\Documents\GitHub\PAA\NTMathProblem\NTStandartProblemAlgorithm\x64\Debug\NTStandartProblemAlgorithms.dll при последней инкрементной компоновке; выполняется полная компоновка
+     Создается библиотека C:\Users\Николай\Documents\GitHub\PAA\NTMathProblem\NTStandartProblemAlgorithm\x64\Debug\NTStandartProblemAlgorithms.lib и объект C:\Users\Николай\Documents\GitHub\PAA\NTMathProblem\NTStandartProblemAlgorithm\x64\Debug\NTStandartProblemAlgorithms.exp
+  NTHGStandartProblemAlgorithm.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\NTMathProblem\NTStandartProblemAlgorithm\x64\Debug\NTStandartProblemAlgorithms.dll

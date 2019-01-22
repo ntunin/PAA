@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  NTStandartAlgorithm.cpp
+  NTStandartMathProblem.cpp
+  NTStandartProblems.cpp
+     Создается библиотека C:\Users\Nik\source\repos\SimpleQuadraticProblem\Release\NTStandartProblems.lib и объект C:\Users\Nik\source\repos\SimpleQuadraticProblem\Release\NTStandartProblems.exp
+  Создание кода
+  All 13 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  NTStandartProblems.vcxproj -> C:\Users\Nik\source\repos\SimpleQuadraticProblem\Release\NTStandartProblems.dll

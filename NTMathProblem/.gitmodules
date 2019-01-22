@@ -1,0 +1,3 @@
+[submodule "NTMath"]
+	path = NTMath
+	url = https://github.com/ntunin/NTMath

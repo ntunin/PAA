@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="NTMath">
+      <UniqueIdentifier>{f8793718-537c-4d92-84f4-d867a739b773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTMath\Vector">
+      <UniqueIdentifier>{c1e6281e-23aa-4da4-b025-97cb0a1d0e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTMath\Matrix">
+      <UniqueIdentifier>{019958af-c843-41ad-b63f-bf7fd788b475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTMath\Complex">
+      <UniqueIdentifier>{f77eff42-08e3-4360-af56-aed5495dae30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NTMath\Utils">
+      <UniqueIdentifier>{984ccc07-ab4d-4082-89f3-b603f14b5b1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>NTMath\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorT.h">
+      <Filter>NTMath\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Complex.h">
+      <Filter>NTMath\Complex</Filter>
+    </ClInclude>
+    <ClInclude Include="NTMath.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>NTMath\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>NTMath\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NTMath.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Complex.cpp">
+      <Filter>NTMath\Complex</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>NTMath\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

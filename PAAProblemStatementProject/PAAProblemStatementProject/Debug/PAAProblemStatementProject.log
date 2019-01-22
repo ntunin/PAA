@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  PAAFileProblemStatement.cpp
+c:\users\николай\documents\github\paa\paaproblemstatementproject\paaproblemstatementproject\paafileproblemstatement.cpp(18): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\николай\documents\github\paa\paaproblemstatementproject\paaproblemstatementproject\paafileproblemstatement.cpp(28): warning C4018: <: несоответствие типов со знаком и без знака
+  PAAPhysicalSystem.cpp
+  PAAPhysicalSystemProblemStatement.cpp
+  PAAProblemStatement.cpp
+  PAAProblemStatementProject.cpp
+  PAAPhysicalSystemDirectivityOptimisationProblemStatement.cpp
+  Создание кода...
+     Создается библиотека C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\PAAProblemStatementProject.lib и объект C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\PAAProblemStatementProject.exp
+  PAAProblemStatementProject.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\PAAProblemStatementProject.dll

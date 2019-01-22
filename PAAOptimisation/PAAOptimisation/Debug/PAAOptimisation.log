@@ -1,0 +1,6 @@
+﻿  PAAOptimisation.cpp
+c:\users\николай\documents\github\paa\ntwindowsutilities\ntutilities\ntasync\processes\processes\processrunner.h(16): warning C4141: virtual: используется несколько раз
+c:\users\николай\documents\github\paa\paaoptimisation\paaoptimisation\paaoptimisation.cpp(137): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\николай\documents\github\paa\paaoptimisation\paaoptimisation\paaoptimisation.cpp(145): warning C4129: A: неизвестная escape-последовательность
+c:\users\николай\documents\github\paa\paaoptimisation\paaoptimisation\paaoptimisation.cpp(147): warning C4129: B: неизвестная escape-последовательность
+  PAAOptimisation.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\PAAOptimisation.exe

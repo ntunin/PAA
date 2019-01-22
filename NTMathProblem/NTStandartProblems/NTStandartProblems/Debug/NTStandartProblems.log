@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  NTGradientProblem.cpp
+  NTGradientProblemAlgorithm.cpp
+  NTInitialVectorAlgorithm.cpp
+  NTStandartAlgorithm.cpp
+  NTStandartMathProblem.cpp
+  NTStandartProblems.cpp
+  Создание кода...
+     Создается библиотека C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\NTStandartProblems.lib и объект C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\NTStandartProblems.exp
+  NTStandartProblems.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\NTStandartProblems.dll

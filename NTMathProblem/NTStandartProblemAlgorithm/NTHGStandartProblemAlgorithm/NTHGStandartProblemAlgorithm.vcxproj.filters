@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{abed75bc-a722-4c6f-88c6-8db6e8bede97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\HG">
+      <UniqueIdentifier>{e76eb3b8-a3fb-4cf0-a5ad-4cb9b4025e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\Gradient">
+      <UniqueIdentifier>{8bc05af1-d02a-4625-8c56-b83e38568a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\ConjugateGradient">
+      <UniqueIdentifier>{c0243f76-f394-4bef-99f5-7dc973e5eb2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\LinearSearch">
+      <UniqueIdentifier>{995ce0ce-ab26-4c6e-a3be-eebeb5eb3971}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NTStandartProblems\NTStandartProblems\NTStandartProblems.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="NTHGAlgorithm.h">
+      <Filter>Algorithm\HG</Filter>
+    </ClInclude>
+    <ClInclude Include="NTGradientAlgorithm.h">
+      <Filter>Algorithm\Gradient</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearSearch.h">
+      <Filter>Algorithm\LinearSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="NTConjugateGradientAlgorithm.h">
+      <Filter>Algorithm\ConjugateGradient</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NTHGAlgorithm.cpp">
+      <Filter>Algorithm\HG</Filter>
+    </ClCompile>
+    <ClCompile Include="NTGradientAlgorithm.cpp">
+      <Filter>Algorithm\Gradient</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearSearch.cpp">
+      <Filter>Algorithm\LinearSearch</Filter>
+    </ClCompile>
+    <ClCompile Include="NTHGStandartProblemAlgorithms.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NTConjugateGradientAlgorithm.cpp">
+      <Filter>Algorithm\ConjugateGradient</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

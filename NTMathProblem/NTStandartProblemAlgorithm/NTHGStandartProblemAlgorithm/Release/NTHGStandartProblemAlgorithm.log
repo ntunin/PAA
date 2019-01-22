@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  NTHGStandartProblemAlgorithms.cpp
+  NTStandartProblemAlgorithm.cpp
+c:\users\nik\source\repos\nthgstandartproblemalgorithm\nthgstandartproblemalgorithm\ntstandartproblemalgorithm.h(2): fatal error C1083: Не удается открыть файл включение: NTStandartProblems.h: No such file or directory,
