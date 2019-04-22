@@ -1,5 +1,6 @@
 #include "stdafx.h"
 #include "LinearSearch.h"
+#include "Log.h"
 
 using namespace Math;
 using namespace MathProblems;
@@ -23,6 +24,7 @@ void translate(int size, double *x, double *x0, double *direction, double a) {
 
 
 void NTLinearSearch::dsk(int size, double *x, double *direction) {
+	double f0 = problem->targetFunction(size, x);
 	// 1 step
 	double Dx0 = 1;
 	double Dx = Dx0;
@@ -72,12 +74,22 @@ void NTLinearSearch::dsk(int size, double *x, double *direction) {
 	double fb = problem->targetFunction(size, xb);
 	double fc = problem->targetFunction(size, xc);
 
-	path += (fc > fb)? ( Dx * (1 + (fa - fc) / (2 * (fa - 2 * fb + fc)))) : 2*Dx;
+	double divider = (fa - 2 * fb + fc);
+
+	if (divider > 1e-9) {
+		path += (fc > fb) ? (Dx * (1 + (fa - fc) / (2 * divider))) : 2 * Dx;
+	}
+	else {
+		path += 2*Dx;
+	}
 
 	translate(size, x, x, direction, path);
 
 
 	double f = problem->targetFunction(size, x);
+	if (f > f0) {
+		int a = 0;
+	}
 
 	delete[] xi;
 	delete[] xa;

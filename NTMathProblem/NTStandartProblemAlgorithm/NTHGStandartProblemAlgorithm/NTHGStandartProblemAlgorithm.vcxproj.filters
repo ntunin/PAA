@@ -62,9 +62,6 @@
     <ClCompile Include="NTHGAlgorithm.cpp">
       <Filter>Algorithm\HG</Filter>
     </ClCompile>
-    <ClCompile Include="NTGradientAlgorithm.cpp">
-      <Filter>Algorithm\Gradient</Filter>
-    </ClCompile>
     <ClCompile Include="LinearSearch.cpp">
       <Filter>Algorithm\LinearSearch</Filter>
     </ClCompile>
@@ -73,6 +70,9 @@
     </ClCompile>
     <ClCompile Include="NTConjugateGradientAlgorithm.cpp">
       <Filter>Algorithm\ConjugateGradient</Filter>
+    </ClCompile>
+    <ClCompile Include="NTGradientAlgorithm.cpp">
+      <Filter>Algorithm\Gradient</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

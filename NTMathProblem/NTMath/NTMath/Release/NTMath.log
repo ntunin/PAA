@@ -1,10 +1,12 @@
 ﻿  stdafx.cpp
   Complex.cpp
-  dllmain.cpp
   NTMath.cpp
   Utils.cpp
-     Создается библиотека C:\Users\Nik\source\repos\SimpleQuadraticProblem\Release\NTMath.lib и объект C:\Users\Nik\source\repos\SimpleQuadraticProblem\Release\NTMath.exp
+  dllmain.cpp
+     Создается библиотека C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\NTMath.lib и объект C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\NTMath.exp
   Создание кода
-  All 42 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  0 of 72 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
-  NTMath.vcxproj -> C:\Users\Nik\source\repos\SimpleQuadraticProblem\Release\NTMath.dll
+  NTMath.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\NTMath.dll

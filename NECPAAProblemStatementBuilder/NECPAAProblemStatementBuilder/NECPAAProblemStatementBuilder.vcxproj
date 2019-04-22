@@ -121,6 +121,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;NECPAAPROBLEMSTATEMENTBUILDER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\NTWindowsUtilities\NTUtilities\Random\Random;..\..\NTWindowsUtilities\NTUtilities\NTIO\NTIO;..\..\NTMathProblem\NTMath\NTMath;..\..\NTWindowsUtilities\WindowsUtilities\WindowsUtilities;..\..\NTWindowsUtilities\NTUtilities\NTAsync\Processes\Processes;..\..\PAAProblemStatementProject\PAAProblemStatementProject;..\..\NecData\NecData;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -148,6 +149,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AllSourceNecInWritter.h" />
+    <ClInclude Include="AllSourceNecInWritterException.h" />
     <ClInclude Include="CacheManager.h" />
     <ClInclude Include="NecRunner.h" />
     <ClInclude Include="NECPhysicalSystemBuilder.h" />
@@ -158,6 +161,8 @@
     <ClInclude Include="WindowsCacheManager.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AllSourceNecInWritter.cpp" />
+    <ClCompile Include="AllSourceNecInWritterException.cpp" />
     <ClCompile Include="CacheManager.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="NECPAAProblemStatementBuilder.cpp" />

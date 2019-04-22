@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+  DefaultRandomGenerator.cpp
+c:\users\николай\documents\github\paa\ntwindowsutilities\ntutilities\random\random\defaultrandomgenerator.cpp(8): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Random.cpp
+  RandomGenerator.cpp
+  dllmain.cpp
+     Создается библиотека C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\Random.lib и объект C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\Random.exp
+  Создание кода
+  0 of 9 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Random.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\Random.dll

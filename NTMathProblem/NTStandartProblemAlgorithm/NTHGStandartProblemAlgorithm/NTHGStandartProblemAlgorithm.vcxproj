@@ -91,7 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;NTHGSTANDARTPROBLEMALGORITHM_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\NTStandartProblems\NTStandartProblems;..\..\NTMath\NTMath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Николай\Documents\GitHub\PAA\NTWindowsUtilities\WindowsUtilities\WindowsUtilities;..\..\..\NTWindowsUtilities\NTUtilities\NTIO\NTIO;..\..\NTStandartProblems\NTStandartProblems;..\..\NTMath\NTMath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -123,6 +123,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;NTHGSTANDARTPROBLEMALGORITHM_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Николай\Documents\GitHub\PAA\NTWindowsUtilities\WindowsUtilities\WindowsUtilities;..\..\..\NTWindowsUtilities\NTUtilities\NTIO\NTIO;..\..\NTStandartProblems\NTStandartProblems;..\..\NTMath\NTMath;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -173,6 +174,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\NTWindowsUtilities\NTUtilities\NTIO\NTIO\NTIO.vcxproj">
+      <Project>{e7b66ad6-c909-46c9-b9fb-3f2ba1c65ef0}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\NTWindowsUtilities\WindowsUtilities\WindowsUtilities\WindowsUtilities.vcxproj">
+      <Project>{0f74389e-8e57-43e3-9b50-189c2d64c378}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\..\NTMath\NTMath\NTMath.vcxproj">
       <Project>{a24bb547-7c2d-409c-87c6-d40a5b317380}</Project>
     </ProjectReference>

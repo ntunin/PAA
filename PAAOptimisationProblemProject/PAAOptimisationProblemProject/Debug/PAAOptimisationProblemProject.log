@@ -1,9 +1,5 @@
-﻿  stdafx.cpp
-  dllmain.cpp
-  PAAOptimisationProblem.cpp
-c:\users\николай\documents\github\paa\paaoptimisationproblemproject\paaoptimisationproblemproject\paaoptimisationproblem.cpp(52): warning C4018: <: несоответствие типов со знаком и без знака
-  PAAOptimisationProblemFactory.cpp
-  PAAPenaltyOptimisationProblem.cpp
-c:\users\николай\documents\github\paa\paaoptimisationproblemproject\paaoptimisationproblemproject\paapenaltyoptimisationproblem.cpp(43): warning C4018: <: несоответствие типов со знаком и без знака
-  Создание кода...
-  PAAOptimisationProblemProject.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\PAAOptimisationProblemProject.lib
+﻿  PAAPenaltyOptimisationProblem.cpp
+c:\users\николай\documents\github\paa\paaoptimisationproblemproject\paaoptimisationproblemproject\paapenaltyoptimisationproblem.cpp(45): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\николай\documents\github\paa\paaoptimisationproblemproject\paaoptimisationproblemproject\paapenaltyoptimisationproblem.cpp(66): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\николай\documents\github\paa\paaoptimisationproblemproject\paaoptimisationproblemproject\paapenaltyoptimisationproblem.cpp(93): warning C4018: <: несоответствие типов со знаком и без знака
+  PAAOptimisationProblemProject.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Debug\PAAOptimisationProblemProject.dll

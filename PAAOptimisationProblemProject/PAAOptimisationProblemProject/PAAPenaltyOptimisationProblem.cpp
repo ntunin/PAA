@@ -3,6 +3,7 @@
 #include "NTMath.h"
 #include <vector>
 #include "RandomGenerator.h"
+#include <sstream>
 
 using namespace std;
 using namespace Math;
@@ -12,14 +13,15 @@ PenaltyOptimisationProblem::PenaltyOptimisationProblem(Math::Matrix<Math::Comple
 {
 	this->factor = factor;
 	this->degree = degree;
-	int size = 2 * B->size();
+	this->size = 2 * B->size();
 }
 
 PenaltyOptimisationProblem::PenaltyOptimisationProblem(Math::Matrix<double> *A, std::vector<Math::Matrix<double> *> *B, double factor, double degree): OptimisationProblem(A, B)
 {
 	this->factor = factor;
 	this->degree = degree;
-	int size = 2 * B->size();
+	this->size = 2 * B->size();
+	this->duBu = new double[size];
 }
 
 
@@ -41,7 +43,6 @@ void PenaltyOptimisationProblem::getGradient(int size, double *v, double *d) {
 	Math::Utils::gradient(size, A->toArray(), v, d);
 	vector<double> *uBus = this->calculate_uBu(size, v);
 	for (int i = 0; i < uBus->size(); i++) {
-		double *duBu = new double[size];
 		double uBu = (*uBus)[i];
 		if (uBu >= 0 && uBu <= 1) {
 			Utils::fill(size, 0, duBu);
@@ -56,8 +57,47 @@ void PenaltyOptimisationProblem::getGradient(int size, double *v, double *d) {
 		Utils::mul(size, duBu, -1, duBu);
 		Utils::summ(size, d, duBu, d);
 	}
+
+}
+
+double max_uBu(PenaltyOptimisationProblem *problem, int size, double *x) {
+	std::vector<double> *uBu = problem->calculate_uBu(size, x);
+	double maxB = -1e6;
+	for (int i = 0; i < uBu->size(); i++) {
+		double b = (*uBu)[i];
+		if (b > maxB) {
+			maxB = b;
+		}
+	}
+	return maxB;
+}
+
+void PenaltyOptimisationProblem::normalize(int size, double *v) {
+	double delimiter = sqrt(max_uBu(this, size, v));
+	for (int i = 0; i < size; i++) {
+		v[i] /= delimiter;
+	}
+}
+
+
+std::string PenaltyOptimisationProblem::stepDescription(int size, double *v) {
+	std::stringstream s;
+	s << "_______________________\n";
+	s << "F = " << targetFunction(size, v) << ";\n";
+	for (int i = 0; i < size; i++) {
+		s << v[i] << "; ";
+	}
+	s << "\n - - - - - - - - - - -\n";
+	s << "Constraints:\n";
+	vector<double> *uBus = this->calculate_uBu(size, v);
+	for (int i = 0; i < uBus->size(); i++) {
+		s << (*uBus)[i] << "; ";
+	}
+	s << "\n\n";
+	return s.str();
 }
 
 PenaltyOptimisationProblem::~PenaltyOptimisationProblem()
 {
+	delete[] duBu;
 }

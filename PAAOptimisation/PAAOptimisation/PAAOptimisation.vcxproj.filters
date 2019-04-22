@@ -18,12 +18,36 @@
     <ClInclude Include="pch.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="NTCGSAAlgorithm.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="NTGSAAlgorithm.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SAAlgorithm.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GamsWritter.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="PAAOptimisation.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NTCGSAAlgorithm.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NTGSAAlgorithm.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="SAAlgorithm.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GamsWritter.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

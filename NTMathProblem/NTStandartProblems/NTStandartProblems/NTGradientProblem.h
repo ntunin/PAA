@@ -14,6 +14,7 @@ namespace MathProblems {
 	{
 	public:
 		NTSTANDARTPROBLEMS_API virtual void getGradient(int size, double *x, double *gradient) = 0;
+		NTSTANDARTPROBLEMS_API virtual void normalize(int size, double *x) = 0;
 		NTSTANDARTPROBLEMS_API NTGradientProblem();
 		NTSTANDARTPROBLEMS_API ~NTGradientProblem();
 	};

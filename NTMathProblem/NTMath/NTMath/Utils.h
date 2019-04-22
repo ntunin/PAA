@@ -27,8 +27,11 @@ namespace Math {
 		NTMATH_API static void mul(Matrix<double> &matrix, Vector<double> &vector, Vector<double> &result);
 		NTMATH_API static void mul(Matrix<Complex> &matrix1, Matrix<Complex> &matrix2, Matrix<Complex> &result);
 		NTMATH_API static void mul(int size, double *vector, double value, double *result);
+		NTMATH_API static double mul(int size, double *vector1, double *vector2);
 		NTMATH_API static void mul(Vector<double> &vector, double value, Vector<double> &result);
+		NTMATH_API static void exchange(double *&vector1, double *&vector2);
 		NTMATH_API static void fill(int size, double value, double *result);
+		NTMATH_API static void copy(int size, double *source, double *result);
 		NTMATH_API static void fill(double value, Math::Vector<double> &v);
 		NTMATH_API static void push(double **stack, double *newVector, int stackSize, int vectorSize);
 		NTMATH_API static void push(Vector<double> **stack, Vector<double> &newVector, int stackSize);

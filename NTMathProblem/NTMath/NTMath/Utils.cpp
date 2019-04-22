@@ -165,6 +165,15 @@ void Utils::mul(Matrix<double> &matrix, Vector<double> &vector, Vector<double> &
 		result[i] = s;
 	}
 }
+
+double Utils::mul(int size, double *vector1, double *vector2) {
+	double result = 0;
+	for (int i = 0; i < size; i++) {
+		result += vector1[i] * vector2[i];
+	}
+	return result;
+}
+
 void Utils::gradient(int size, double **matrix, double *vector, double *result) {
 	double **matrixT = new double*[size];
 	double **mTplusM = new double*[size];
@@ -203,6 +212,18 @@ void Utils::fill(double value, Math::Vector<double> &v) {
 	int size = v.size();
 	for (int i = 0; i < size; i++) {
 		v[i] = value;
+	}
+}
+
+void Utils::exchange(double *&vector1, double *&vector2) {
+	double *buffer = vector1;
+	vector1 = vector2;
+	vector2 = buffer;
+}
+
+void Utils::copy(int size, double *source, double *result) {
+	for (int i = 0; i < size; i++) {
+		result[i] = source[i];
 	}
 }
 

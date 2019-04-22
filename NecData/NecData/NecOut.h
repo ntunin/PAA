@@ -23,6 +23,7 @@ public:
 		NECDATA_API Source(int tag, int seg, double vRe, double vIm, double iRe, double iIm, double zRe, double zIm, double aRe, double aIm, double power);
 		NECDATA_API Complex getI();
 		NECDATA_API Complex getV();
+		NECDATA_API Complex getZ();
 		NECDATA_API ~Source();
 	private:
 		int tag; 

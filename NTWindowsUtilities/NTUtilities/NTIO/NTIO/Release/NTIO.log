@@ -1,0 +1,20 @@
+﻿  stdafx.cpp
+  ConsoleLog.cpp
+c:\users\николай\documents\github\paa\ntwindowsutilities\ntutilities\ntio\ntio\consolelog.cpp(29): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\николай\documents\github\paa\ntwindowsutilities\ntutilities\ntio\ntio\consolelog.cpp(32): warning C4018: <: несоответствие типов со знаком и без знака
+  ConsoleScanner.cpp
+  FileLog.cpp
+c:\users\николай\documents\github\paa\ntwindowsutilities\ntutilities\ntio\ntio\filelog.cpp(29): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\николай\documents\github\paa\ntwindowsutilities\ntutilities\ntio\ntio\filelog.cpp(32): warning C4018: <: несоответствие типов со знаком и без знака
+  FileScanner.cpp
+  Log.cpp
+  NTIO.cpp
+  Scanner.cpp
+  dllmain.cpp
+     Создается библиотека C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\NTIO.lib и объект C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\NTIO.exp
+  Создание кода
+  0 of 325 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  NTIO.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\NTIO.dll

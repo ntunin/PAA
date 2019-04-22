@@ -18,13 +18,13 @@ namespace PAA {
 	class NECPhysicalSystemBuilder
 	{
 	private:
-		NecIn *in;
 		WindowsCacheManager *cacheManager;
 		std::string filename;
 		NecOut **buildOuts(bool);
 		Math::Complex ****buildBeamPattern(int sourceCount, NecIn *in, NecOut **outs);
 		Math::Matrix<Math::Complex> *buildY(int sourceCont, NecOut **outs);
 	public:
+		NecIn *in;
 		NECPAAPROBLEMSTATEMENTBUILDER_API PhysicalSystem *buildSystem(bool);
 		NECPAAPROBLEMSTATEMENTBUILDER_API NECPhysicalSystemBuilder(std::string filename);
 		NECPAAPROBLEMSTATEMENTBUILDER_API ~NECPhysicalSystemBuilder();

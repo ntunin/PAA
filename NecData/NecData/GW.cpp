@@ -93,7 +93,7 @@ std::string GW::toString() {
 	std::stringstream stream;
 	stream << "GW"
 		<< ((NecCommand *)this)->toString(this->tag, 5) 
-		<< ((NecCommand *)this)->toString(this->seg, 3)
+		<< ((NecCommand *)this)->toString(this->seg, 5)
 		<< ((NecCommand *)this)->toString(this->x1, 9, false) 
 		<< ((NecCommand *)this)->toString(this->y1, 9, false)
 		<< ((NecCommand *)this)->toString(this->z1, 9, false) 

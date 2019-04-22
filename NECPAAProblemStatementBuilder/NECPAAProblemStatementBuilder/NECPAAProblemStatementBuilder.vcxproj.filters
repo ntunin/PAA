@@ -39,6 +39,12 @@
     <ClInclude Include="NECPhysicalSystemBuilder.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="AllSourceNecInWritter.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="AllSourceNecInWritterException.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -66,6 +72,12 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="NECPhysicalSystemBuilder.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AllSourceNecInWritter.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AllSourceNecInWritterException.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

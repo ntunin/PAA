@@ -3,6 +3,12 @@
 #include "NTStandartMathProblem.h"
 #include <vector>
 
+#ifdef PAAOPTIMISATIONPROBLEMPROJECT_EXPORTS  
+#define PAAOPTIMISATIONPROBLEMPROJECT_API __declspec(dllexport)   
+#else  
+#define PAAOPTIMISATIONPROBLEMPROJECT_API __declspec(dllimport)   
+#endif 
+
 namespace PAA {
 	class OptimisationProblem
 	{
@@ -23,11 +29,11 @@ namespace PAA {
 		std::vector<Math::Matrix<double> *> *B;
 		int sourcesCount;
 	public:
-		OptimisationProblem(Math::Matrix<Math::Complex> *A, std::vector<Math::Matrix<Math::Complex> *> *B);
-		OptimisationProblem(Math::Matrix<double> *A, std::vector<Math::Matrix<double> *> *B);
-		std::vector<double> *calculate_uBu(int size, double *v);
-		double calculate_uAu(int size, double *v);
-		~OptimisationProblem();
+		PAAOPTIMISATIONPROBLEMPROJECT_API OptimisationProblem(Math::Matrix<Math::Complex> *A, std::vector<Math::Matrix<Math::Complex> *> *B);
+		PAAOPTIMISATIONPROBLEMPROJECT_API OptimisationProblem(Math::Matrix<double> *A, std::vector<Math::Matrix<double> *> *B);
+		PAAOPTIMISATIONPROBLEMPROJECT_API std::vector<double> *calculate_uBu(int size, double *v);
+		PAAOPTIMISATIONPROBLEMPROJECT_API double calculate_uAu(int size, double *v);
+		PAAOPTIMISATIONPROBLEMPROJECT_API ~OptimisationProblem();
 
 	};
 }

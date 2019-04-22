@@ -110,3 +110,7 @@ Complex NecOut::Source::getV() {
 	return this->v;
 }
 
+
+Complex NecOut::Source::getZ() {
+	return this->z;
+}

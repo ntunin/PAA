@@ -1,4 +1,6 @@
 ﻿  stdafx.cpp
+  DefaultRandomGenerator.cpp
+c:\users\николай\documents\github\paa\ntwindowsutilities\ntutilities\random\random\defaultrandomgenerator.cpp(8): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   dllmain.cpp
   Random.cpp
   RandomGenerator.cpp

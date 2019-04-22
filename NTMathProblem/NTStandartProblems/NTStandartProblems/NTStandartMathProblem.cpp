@@ -11,3 +11,7 @@ NTStandartMathProblem::NTStandartMathProblem()
 NTStandartMathProblem::~NTStandartMathProblem()
 {
 }
+
+std::string NTStandartMathProblem::stepDescription(int size, double *v) {
+	return "";
+}

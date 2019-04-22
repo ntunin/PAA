@@ -24,6 +24,9 @@
     <ClInclude Include="RandomGenerator.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="DefaultRandomGenerator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -36,6 +39,9 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="RandomGenerator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultRandomGenerator.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

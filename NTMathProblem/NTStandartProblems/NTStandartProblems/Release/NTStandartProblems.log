@@ -1,10 +1,15 @@
 ﻿  stdafx.cpp
-  dllmain.cpp
+  NTGradientProblem.cpp
+  NTGradientProblemAlgorithm.cpp
+  NTInitialVectorAlgorithm.cpp
   NTStandartAlgorithm.cpp
   NTStandartMathProblem.cpp
   NTStandartProblems.cpp
-     Создается библиотека C:\Users\Nik\source\repos\SimpleQuadraticProblem\Release\NTStandartProblems.lib и объект C:\Users\Nik\source\repos\SimpleQuadraticProblem\Release\NTStandartProblems.exp
+  dllmain.cpp
+     Создается библиотека C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\NTStandartProblems.lib и объект C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\NTStandartProblems.exp
   Создание кода
-  All 13 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  0 of 69 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
-  NTStandartProblems.vcxproj -> C:\Users\Nik\source\repos\SimpleQuadraticProblem\Release\NTStandartProblems.dll
+  NTStandartProblems.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\NTStandartProblems.dll

@@ -1,0 +1,83 @@
+Please wait while nec2 making calculations for one source enabled mod. 
+Temporary i/o name: tmp-829-7548-2
+Temporary i/o name: tmp-677-7556-4
+Temporary i/o name: tmp-455-7544-1
+Temporary i/o name: tmp-903-7552-3
+Temporary i/o name: tmp-39-7536-0
+Temporary i/o name: tmp-152-7560-5
+Temporary i/o name: tmp-970-7568-7
+Temporary i/o name: tmp-95-7564-6
+The nec2 finised. Temporary i/o with name: tmp-903-7552-3 was removed
+Temporary i/o name: tmp-561-7572-8
+The nec2 finised. Temporary i/o with name: tmp-152-7560-5 was removed
+The nec2 finised. Temporary i/o with name: tmp-95-7564-6 was removed
+The nec2 finised. Temporary i/o with name: tmp-39-7536-0 was removed
+The nec2 finised. Temporary i/o with name: tmp-829-7548-2 was removed
+Temporary i/o name: tmp-541-7576-9
+Temporary i/o name: tmp-1-7580-10
+Temporary i/o name: tmp-942-7584-11
+Temporary i/o name: tmp-132-7588-12
+The nec2 finised. Temporary i/o with name: tmp-970-7568-7 was removed
+Temporary i/o name: tmp-802-7592-13
+The nec2 finised. Temporary i/o with name: tmp-677-7556-4 was removed
+The nec2 finised. Temporary i/o with name: tmp-455-7544-1 was removed
+Temporary i/o name: tmp-974-7596-14
+Temporary i/o name: tmp-297-7600-15
+The nec2 finised. Temporary i/o with name: tmp-541-7576-9 was removed
+The nec2 finised. Temporary i/o with name: tmp-802-7592-13 was removed
+Temporary i/o name: tmp-297-7604-16
+Temporary i/o name: tmp-930-7608-17
+The nec2 finised. Temporary i/o with name: tmp-1-7580-10 was removed
+Temporary i/o name: tmp-374-7612-18
+The nec2 finised. Temporary i/o with name: tmp-132-7588-12 was removed
+could not remove the file tmp-132-7588-12.nec
+Temporary i/o name: tmp-395-7616-19
+The nec2 finised. Temporary i/o with name: tmp-974-7596-14 was removed
+Temporary i/o name: tmp-457-7620-20
+The nec2 finised. Temporary i/o with name: tmp-561-7572-8 was removed
+Temporary i/o name: tmp-286-7632-21
+The nec2 finised. Temporary i/o with name: tmp-297-7600-15 was removed
+Temporary i/o name: tmp-314-7636-22
+The nec2 finised. Temporary i/o with name: tmp-942-7584-11 was removed
+Temporary i/o name: tmp-151-7640-23
+The nec2 finised. Temporary i/o with name: tmp-930-7608-17 was removed
+Temporary i/o name: tmp-778-7644-24
+The nec2 finised. Temporary i/o with name: tmp-395-7616-19 was removed
+The nec2 finised. Temporary i/o with name: tmp-297-7604-16 was removed
+The nec2 finised. Temporary i/o with name: tmp-374-7612-18 was removed
+The nec2 finised. Temporary i/o with name: tmp-314-7636-22 was removed
+The nec2 finised. Temporary i/o with name: tmp-151-7640-23 was removed
+The nec2 finised. Temporary i/o with name: tmp-457-7620-20 was removed
+The nec2 finised. Temporary i/o with name: tmp-286-7632-21 was removed
+The nec2 finised. Temporary i/o with name: tmp-778-7644-24 was removed
+
+                                                  PAA optimisation finish
+01_04_19_5x5L.nec
+Gradient
+
+_____________________
+
+Founded: 1 solutions: 
+F = 	-5565.89		-257.748	-225.06	-2247.67	2045.07	-127.976	-1041.7	710.964	3257.91	-2645.22	-1087.73	1114.38	-2191.73	-1748.8	719.845	1971.01	-45.6272	1960.2	-701.704	1814.06	-1961.12	-9.80954	-1981.45	2402.27	-1878.52	1652.78	930.977	-1713.79	1568.01	-1178.97	1081.71	-543.383	-23.4239	-539.013	1037.71	-586.105	-749.477	2505.01	-1643.71	856.767	-388.078	281.568	-544.074	-635.899	809.389	239.059	990.035	-1747.55	2106.73	-1308.71	328.566
+
+
+Time = 1e+06
+
+The best: 	-5565.89		-257.748	-225.06	-2247.67	2045.07	-127.976	-1041.7	710.964	3257.91	-2645.22	-1087.73	1114.38	-2191.73	-1748.8	719.845	1971.01	-45.6272	1960.2	-701.704	1814.06	-1961.12	-9.80954	-1981.45	2402.27	-1878.52	1652.78	930.977	-1713.79	1568.01	-1178.97	1081.71	-543.383	-23.4239	-539.013	1037.71	-586.105	-749.477	2505.01	-1643.71	856.767	-388.078	281.568	-544.074	-635.899	809.389	239.059	990.035	-1747.55	2106.73	-1308.71	328.566
+
+
+
+
+Check phases:
+
+
+
+Unequvalent: 1
+		965.998	0	1728.51	2.74093	2740.57	0.69158	2360.57	0.777748	1089.26	-0.15233	1174.91	1.78151	711.349	1.26777	3302.2	1.13674	2841.48	0.926858	1235.59	1.79493	1342.96	0.708638	3328.48	0.448704	2400.01	2.05514	1119.03	2.17273	2008.85	1.1063	285.241	-0.109441	2034.31	1.02996	946.972	2.03695	1986.44	1.72037	1975.64	1.1794	990.083	-0.260184	2641.99	2.02346	3195.18	2.02065	2289.44	1.90919	1685.12	1.49694
+
+
+All polar solutions:
+		965.998	0	1728.51	2.74093	2740.57	0.69158	2360.57	0.777748	1089.26	-0.15233	1174.91	1.78151	711.349	1.26777	3302.2	1.13674	2841.48	0.926858	1235.59	1.79493	1342.96	0.708638	3328.48	0.448704	2400.01	2.05514	1119.03	2.17273	2008.85	1.1063	285.241	-0.109441	2034.31	1.02996	946.972	2.03695	1986.44	1.72037	1975.64	1.1794	990.083	-0.260184	2641.99	2.02346	3195.18	2.02065	2289.44	1.90919	1685.12	1.49694
+
+
+                                                  
