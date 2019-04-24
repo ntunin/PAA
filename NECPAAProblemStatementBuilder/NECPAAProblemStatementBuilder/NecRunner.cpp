@@ -53,7 +53,7 @@ void NecRunner::dispatch() {
 
 void NecRunner::randomize() {
 	stringstream s;
-	this->thread.get_id()._To_text(s);
+	s << this->thread.get_id();
 	int i = atoi(s.str().c_str());
 	int t = time(NULL) % 10 + time(NULL) % 20 * 50 + time(NULL) % 50 * 20;
 	t *= i * 10 * (this->sourceNumber + 1);
@@ -63,7 +63,7 @@ void NecRunner::randomize() {
 string NecRunner::createName(thread::id id, int number) {
 	stringstream s;
 	s << "tmp-" << abs(RandomGenerator::getSharedGenerator()->next() % 1000 + 1) << "-";
-	id._To_text(s);
+	s << id;
 	s << "-" << number;
 	return s.str();
 }

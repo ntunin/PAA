@@ -1,17 +1,16 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: промежуточный каталог (Release\) содержит файлы, которые используются совместно с другим проектом (NTHGStandartProblemAlgorithm.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(411,5): warning MSB8028: промежуточный каталог (Release\) содержит файлы, которые используются совместно с другим проектом (NTHGStandartProblemAlgorithm.vcxproj).  Это может привести к ошибкам очистки и перестроения.
   stdafx.cpp
+  dllmain.cpp
   LinearSearch.cpp
   NTConjugateGradientAlgorithm.cpp
   NTGradientAlgorithm.cpp
-c:\users\николай\documents\github\paa\ntmathproblem\ntstandartproblemalgorithm\nthgstandartproblemalgorithm\ntgradientalgorithm.cpp(52): warning C4244: +=: преобразование "uint64_t" в "int", возможна потеря данных
-  NTHGAlgorithm.cpp
-c:\users\николай\documents\github\paa\ntmathproblem\ntstandartproblemalgorithm\nthgstandartproblemalgorithm\nthgalgorithm.cpp(43): warning C4101: value: неиспользованная локальная переменная
+C:\Users\Nik\Documents\GitHub\PAA\NTMathProblem\NTStandartProblemAlgorithm\NTHGStandartProblemAlgorithm\NTGradientAlgorithm.cpp(52): warning C4244: +=: преобразование "uint64_t" в "int", возможна потеря данных
   NTHGStandartProblemAlgorithms.cpp
-  dllmain.cpp
-     Создается библиотека C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\NTStandartProblemAlgorithms.lib и объект C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\NTStandartProblemAlgorithms.exp
+  NTHGAlgorithm.cpp
+C:\Users\Nik\Documents\GitHub\PAA\NTMathProblem\NTStandartProblemAlgorithm\NTHGStandartProblemAlgorithm\NTHGAlgorithm.cpp(43): warning C4101: value: неиспользованная локальная переменная
+     Создается библиотека C:\Users\Nik\Documents\GitHub\PAA\PAAOptimisation\Release\NTStandartProblemAlgorithms.lib и объект C:\Users\Nik\Documents\GitHub\PAA\PAAOptimisation\Release\NTStandartProblemAlgorithms.exp
   Создание кода
-  0 of 28 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB not found, fall back to full compilation.
+  All 28 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Создание кода завершено
-  NTHGStandartProblemAlgorithm.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\NTStandartProblemAlgorithms.dll
+  NTHGStandartProblemAlgorithm.vcxproj -> C:\Users\Nik\Documents\GitHub\PAA\PAAOptimisation\Release\NTStandartProblemAlgorithms.dll

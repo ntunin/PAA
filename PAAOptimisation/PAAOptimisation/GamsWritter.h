@@ -1,5 +1,7 @@
 #pragma once
 #include "PAAProblemStatement.h"
+#include <string>
+
 class GamsWritter
 {
 public:

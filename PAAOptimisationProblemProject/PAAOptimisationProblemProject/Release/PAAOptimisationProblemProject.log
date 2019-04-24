@@ -1,16 +1,7 @@
-﻿  stdafx.cpp
-  PAAOptimisationProblem.cpp
-c:\users\николай\documents\github\paa\paaoptimisationproblemproject\paaoptimisationproblemproject\paaoptimisationproblem.cpp(52): warning C4018: <: несоответствие типов со знаком и без знака
-  PAAOptimisationProblemFactory.cpp
-  PAAPenaltyOptimisationProblem.cpp
-c:\users\николай\documents\github\paa\paaoptimisationproblemproject\paaoptimisationproblemproject\paapenaltyoptimisationproblem.cpp(45): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\николай\documents\github\paa\paaoptimisationproblemproject\paaoptimisationproblemproject\paapenaltyoptimisationproblem.cpp(66): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\николай\documents\github\paa\paaoptimisationproblemproject\paaoptimisationproblemproject\paapenaltyoptimisationproblem.cpp(93): warning C4018: <: несоответствие типов со знаком и без знака
-  dllmain.cpp
-     Создается библиотека C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\PAAOptimisationProblemProject.lib и объект C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\PAAOptimisationProblemProject.exp
+﻿     Создается библиотека C:\Users\Nik\Documents\GitHub\PAA\PAAOptimisation\Release\PAAOptimisationProblemProject.lib и объект C:\Users\Nik\Documents\GitHub\PAA\PAAOptimisation\Release\PAAOptimisationProblemProject.exp
   Создание кода
-  0 of 253 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+  0 of 240 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
-  PAAOptimisationProblemProject.vcxproj -> C:\Users\Николай\Documents\GitHub\PAA\PAAOptimisation\Release\PAAOptimisationProblemProject.dll
+  PAAOptimisationProblemProject.vcxproj -> C:\Users\Nik\Documents\GitHub\PAA\PAAOptimisation\Release\PAAOptimisationProblemProject.dll

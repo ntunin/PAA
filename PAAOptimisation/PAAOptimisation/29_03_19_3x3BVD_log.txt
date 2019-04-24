@@ -798,3 +798,12 @@ All polar solutions:
 		16.2075	0	11.7687	-1.19273	6.03078	-2.34113	11.7399	-1.19098	18.8286	-1.72751	4.66723	-2.53571	6.02101	-2.34233	4.68252	-2.53986	4.14082	0.359249
 
 
+Please wait while nec2 making calculations for one source enabled mod. 
+Temporary i/o name: tmp-31-4980-6
+Temporary i/o name: tmp-639-6336-4
+Temporary i/o name: tmp-804-14260-0
+Temporary i/o name: tmp-456-1592-2
+Temporary i/o name: tmp-222-13452-1
+Temporary i/o name: tmp-968-15124-3
+Temporary i/o name: tmp-994-12612-7
+Temporary i/o name: tmp-232-4424-5

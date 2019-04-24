@@ -12,7 +12,7 @@ void taskMethod(Task *task) {
 
 std::string threadId(std::thread *thread) {
 	std::stringstream s;
-	thread->get_id()._To_text(s);
+	s << thread->get_id();
 	return s.str();
 }
 

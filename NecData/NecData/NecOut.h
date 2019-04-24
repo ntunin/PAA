@@ -1,6 +1,7 @@
 #pragma once
 #include "Complex.h"
 #include <vector>
+#include <string>
 #include "FileStructure.h"
 
 #ifdef NECDATA_EXPORTS  

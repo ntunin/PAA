@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "NecOut.h"
 #include <math.h>
+#include <string>
 
 
 #ifndef PI

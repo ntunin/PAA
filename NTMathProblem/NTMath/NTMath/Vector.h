@@ -5,6 +5,8 @@
 #define NTMATH_API __declspec(dllimport)   
 #endif 
 
+#include <math.h>
+
 namespace Math {
 	template <class T>
 	class Vector
